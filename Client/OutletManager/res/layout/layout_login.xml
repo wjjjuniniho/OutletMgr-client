@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/login"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background3"
+    android:focusable="true"  
+    android:focusableInTouchMode="true" >
+
+
+    <ImageButton android:id="@+id/btn_setting"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp" android:layout_marginTop="0dp"
+        android:background="@drawable/setting_bg" />
+    
+    <RelativeLayout android:id="@+id/login_dialog_layout"
+        android:layout_width="680dp" android:layout_height="420dp"
+        android:layout_gravity="center" android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="120dp" android:paddingRight="120dp"
+        android:background="@drawable/login_dialog">
+        <LinearLayout android:id="@+id/username_layout"
+            android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal">
+	        <TextView android:id ="@+id/username"
+	            android:layout_width="fill_parent" android:layout_height="wrap_content" 
+	            android:layout_weight="3" android:layout_marginRight="25dp"
+	            android:text="@string/str_login_user" android:textStyle="bold"
+	            android:textSize="18dp"
+	            />
+	        <EditText android:id="@+id/username_edit"
+	            android:layout_width="fill_parent" android:layout_height="wrap_content"
+	            android:layout_weight="1" android:layout_marginLeft="25dp"
+	            android:paddingLeft="15dp"
+	            android:hint="@string/str_login_user_hint" android:singleLine="true"
+	            android:background="@drawable/search_bar" />
+	    </LinearLayout>
+	    <LinearLayout android:id="@+id/password_layout"
+	        android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:layout_below="@id/username_layout"
+            android:layout_marginTop="60dp">
+	        <TextView android:id ="@+id/password"
+	            android:layout_width="fill_parent" android:layout_height="wrap_content" 
+	            android:layout_weight="3" android:layout_marginRight="25dp"
+	            android:text="@string/str_login_password" android:textStyle="bold"
+	            android:textSize="18dp"
+	            />
+	        <EditText android:id="@+id/password_edit"
+	            android:layout_width="fill_parent" android:layout_height="wrap_content"
+	            android:layout_weight="1" android:layout_marginLeft="25dp"
+	            android:paddingLeft="15dp"
+	            android:password="true" android:hint="@string/str_login_password_hint"
+	            android:singleLine="true"
+	            android:background="@drawable/search_bar" />"
+        </LinearLayout>
+        <LinearLayout android:id="@+id/button_layout"
+            android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:layout_below="@id/password_layout"
+            android:layout_marginTop="60dp">
+	        <Button android:id="@+id/btn_login"
+	            android:layout_width="fill_parent" android:layout_height="wrap_content"
+	            android:layout_weight="1" 
+	            android:layout_marginRight="25dp" android:layout_marginLeft="50dp"
+	            android:text="@string/str_login_confirm"/>
+	        <Button android:id="@+id/btn_reset"
+	            android:layout_width="fill_parent" android:layout_height="wrap_content"
+	            android:layout_weight="1" 
+	            android:layout_marginRight="50dp" android:layout_marginLeft="25dp"
+	            android:text="@string/str_login_reset"/>
+        </LinearLayout>"
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/search_result"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@null" >
+    <ImageView android:id="@+id/merchandise_img"
+        android:layout_width="128dp" android:layout_height="128dp"
+        android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
+        android:src="@drawable/ipod_nano" />
+    
+    <RelativeLayout android:id="@+id/layout_ok_cancel"
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" android:gravity="center" >
+        <ImageButton android:id="@+id/btn_ok"
+	        android:layout_width="wrap_content" android:layout_height="wrap_content"
+	        android:scaleType="fitEnd"
+	        android:background="@drawable/ok" />
+        <ImageButton android:id="@+id/btn_cancel"
+	        android:layout_width="wrap_content" android:layout_height="wrap_content"
+	        android:layout_toRightOf="@id/btn_ok" android:scaleType="fitEnd"
+	        android:background="@drawable/cancel" />    
+    </RelativeLayout>
+    
+    
+    <ScrollView android:id="@+id/merchandise_scroll"
+        android:scrollbars="vertical"
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:layout_below="@id/merchandise_img" android:layout_above="@id/layout_ok_cancel"
+        android:paddingTop="15dp">
+        <LinearLayout
+            android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:gravity="center" >
+
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+                android:gravity="center">
+                <TextView android:id="@+id/merchandise_amount_label"
+	                android:layout_width="wrap_content" android:layout_height="wrap_content"
+	                android:text="@string/str_amount_label" android:textStyle="bold" android:textSize="20dp" />
+                <EditText android:id="@+id/merchandise_amount_edt"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/merchandise_amount_label"
+                    android:layout_alignBaseline="@id/merchandise_amount_label"
+                    android:singleLine="true" android:inputType="number"
+                    android:selectAllOnFocus="true"  android:maxLength="2"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    
+    
+</RelativeLayout>

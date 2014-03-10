@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, OutletManagerActivity!</string>
+    <string name="app_name">OutletManager</string>
+    
+    <string name="str_setting_store_id">Store ID:</string>
+    <string name="str_setting_server_ip">Server IP address:</string>
+    <string name="str_setting_server_port">Server port:</string>
+    <string name="str_setting_save">Save</string>
+    <string name="str_setting_not_empty">Setting info should not be empty!</string>
+    
+    
+    <string name="str_login_user">User:</string>
+    <string name="str_login_password">Password:</string>
+    <string name="str_login_user_hint">Input user here</string>
+    <string name="str_login_password_hint">Input password here</string>
+    <string name="str_login_confirm">Login</string>
+    <string name="str_login_reset">Reset</string>
+    <string name="str_login_not_empty">User name or password should not be empty!</string>
+    <string name="str_login_process">Login now, please wait</string>
+    <string name="str_login_success">Login in successfully!</string>
+    
+    <string name="str_greeting">Welcome back,</string>
+    
+    <string name="str_search_hint">Search merchandise here</string>
+    <string name="str_search_not_empty">Search item should not be empty!</string>
+    
+    <string name="str_confirm_logout">Are you sure to log out?</string>
+    
+    <string name="str_name_label">Name:</string>
+    <string name="str_model_label">Model:</string>
+    <string name="str_price_label">Price:</string>
+    <string name="str_storage_label">Storage:</string>
+    
+    <string name="str_trolley_preview">Preview</string>
+    <string name="str_trolley_name">Name</string>
+    <string name="str_trolley_model">Model</string>
+    <string name="str_trolley_price">Price</string>
+    <string name="str_trolley_amount">Amount</string>
+    <string name="str_trolley_storage">Storage</string>
+    <string name="str_trolley_total">Total</string>
+    
+    <string name="str_trolley_empty">No item to be checked out!</string>
+    <string name="str_trolley_checkout_success">Check out successfully!</string>
+    <string name="str_trolley_clear">Trolley cleared!</string>
+    <string name="str_trolley_out_of_storage">Amount fails to be edited : item out of storage!</string>
+    
+
+    <string name="str_detail_report_title">Detailed sales report</string>
+    <string name="str_detail_report_name">Name</string>
+    <string name="str_detail_report_model">Model</string>
+    <string name="str_detail_report_price">Price</string>
+    <string name="str_detail_report_cost">Cost</string>
+    <string name="str_detail_report_sales">Sales</string>
+    <string name="str_detail_report_total_cost">Total Cost</string>
+    <string name="str_detail_report_total_price">Total Price</string>
+    <string name="str_detail_report_profit">Profit</string>
+    <string name="str_detail_report_export_path">/outletmanager/report.csv</string>
+    
+    
+    
+    <string name="str_bar_chart_title">Sales report: bar chart</string>
+    <string name="str_bar_chart_x_title">Month</string>
+    <string name="str_bar_chart_y_title">Sales</string>
+    <string name="str_bar_chart_category_name">Sales of</string>
+    <string name="str_bar_chart_in">in</string>
+    
+    <string name="str_january">Jan</string>
+    <string name="str_february">Feb</string>
+    <string name="str_march">Mar</string>
+    <string name="str_april">Apr</string>
+    <string name="str_may">May</string>
+    <string name="str_june">Jun</string>
+    <string name="str_july">Jul</string>
+    <string name="str_august">Aug</string>
+    <string name="str_september">Sep</string>
+    <string name="str_october">Oct</string>
+    <string name="str_november">Nov</string>
+    <string name="str_december">Dec</string>
+    
+    
+    
+    <string name="str_amount_label">Amount: x </string>
+    <string name="str_total_label">Total:</string>
+    <string name="str_default_total">0</string>
+
+</resources>
